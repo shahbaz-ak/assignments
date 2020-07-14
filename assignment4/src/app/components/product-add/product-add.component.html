@@ -1,0 +1,26 @@
+
+<div class="container">
+    <table>
+        <tr>
+            <td>Pid</td>
+            <td><input type="text" [(ngModel)]="pid"></td>
+        </tr>
+        <tr>
+            <td>Pname</td>
+            <td><input type="text" [(ngModel)]="pname"></td>
+        </tr>
+        <tr>
+            <td>price</td>
+            <td><input type="number" [(ngModel)]="price"></td>
+        </tr>
+        <tr>
+            <td>stock</td>
+            <td><input type="number" [(ngModel)]="stock"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="btn-primary" (click)='Store()'>Add</button>
+            </td>
+        </tr>
+    </table>
+</div>
